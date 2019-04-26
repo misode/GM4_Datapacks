@@ -1,6 +1,7 @@
 #@s = item entity to have enchantments extracted
 #run from enchantment_extractors:extract
 
+data remove block ~ ~ ~ Items[{Slot:4b}]
 function enchantment_extractors:next_random
 
 execute if score result gm4_ench_random matches ..79 run particle poof ~ ~1.5 ~ 0.2 0.2 0.2 0.05 25 force @a[distance=..10]
