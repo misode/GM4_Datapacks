@@ -24,6 +24,8 @@ data = {
 
     "beach": ["stone_shore", "beach", "snowy_beach"],
 
+    "ice_spikes": ["ice_spikes"],
+
     "border": ["river"],
 }
 

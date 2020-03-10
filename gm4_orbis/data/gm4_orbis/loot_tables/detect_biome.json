@@ -748,6 +748,23 @@
             },
             {
               "function": "minecraft:set_nbt",
+              "tag": "{gm4_orbis:{ice_spikes:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:ice_spikes"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{gm4_orbis:{border:1b}}",
               "conditions": [
                 {
