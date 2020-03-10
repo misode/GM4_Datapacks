@@ -26,6 +26,8 @@ data = {
 
     "ice_spikes": ["ice_spikes"],
 
+    "mushroom": ["mushroom_fields", "mushroom_field_shore"],
+
     "border": ["river"],
 }
 

@@ -765,6 +765,29 @@
             },
             {
               "function": "minecraft:set_nbt",
+              "tag": "{gm4_orbis:{mushroom:1b}}",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:mushroom_fields"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "biome": "minecraft:mushroom_field_shore"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{gm4_orbis:{border:1b}}",
               "conditions": [
                 {

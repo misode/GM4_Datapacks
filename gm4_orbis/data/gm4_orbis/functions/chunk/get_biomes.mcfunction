@@ -10,6 +10,7 @@ execute if entity @s[nbt={Item:{tag:{gm4_orbis:{plains:1b}}}}] run scoreboard pl
 execute if entity @s[nbt={Item:{tag:{gm4_orbis:{river:1b}}}}] run scoreboard players set river gm4_orbis_biome 1
 execute if entity @s[nbt={Item:{tag:{gm4_orbis:{beach:1b}}}}] run scoreboard players set beach gm4_orbis_biome 1
 execute if entity @s[nbt={Item:{tag:{gm4_orbis:{ice_spikes:1b}}}}] run scoreboard players set ice_spikes gm4_orbis_biome 1
+execute if entity @s[nbt={Item:{tag:{gm4_orbis:{mushroom:1b}}}}] run scoreboard players set mushroom gm4_orbis_biome 1
 execute if entity @s[nbt={Item:{tag:{gm4_orbis:{border:1b}}}}] run scoreboard players set border gm4_orbis_biome 1
 
 kill @s
