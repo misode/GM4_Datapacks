@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "furnace",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": {
+            "translate": "%1$s%3427655$s",
+            "with": [
+                "Serious Smelter",
+                {
+                    "translate": "advancement.gm4.blast_furnaces.title"
+                }
+            ]
+        },
+        "description": {
+            "translate": "%1$s%3427655$s",
+            "with": [
+                "Construct a Blast Furnace",
+                {
+                    "translate": "advancement.gm4.blast_furnaces.description"
+                }
+            ],
+            "color": "gray"
+        }
+    },
+    "parent": "gm4:custom_crafters",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

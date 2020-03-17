@@ -1,0 +1,36 @@
+{
+    "pack": {
+        "pack_format": 0,
+        "description": "A Gamemode 4 Module"
+    },
+    "Blast Furnaces": "Blast Furnaces",
+    "blast_furnaces": "blast_furnaces",
+    "site_description": "Double your ore output with this multi-block structure.",
+    "site_categories": [
+        "Custom Crafting"
+    ],
+    "video_link": "",
+    "wiki_link": "https://wiki.gm4.co/wiki/Blast_Furnaces",
+    "required_modules": [
+        "custom_crafters"
+    ],
+    "recommended_modules": [],
+    "credits": {
+        "Creator": [
+            [
+                "Bloo",
+                "https://twitter.com/bluefire610"
+            ]
+        ],
+        "Updated By": [
+            [
+                "Andante",
+                "https://twitter.com/Andantweets"
+            ],
+            [
+                "Kroppeb",
+                "https://twitter.com/kroppeb"
+            ]
+        ]
+    }
+}
