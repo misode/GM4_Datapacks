@@ -2,5 +2,3 @@ execute if predicate gm4_boots_of_ostara:holding_seeds run function gm4_boots_of
 execute if predicate gm4_boots_of_ostara:holding_carrot run function gm4_boots_of_ostara:plant/carrot
 execute if predicate gm4_boots_of_ostara:holding_potato run function gm4_boots_of_ostara:plant/potato
 execute if predicate gm4_boots_of_ostara:holding_beetroot run function gm4_boots_of_ostara:plant/beetroot
-execute if predicate gm4_boots_of_ostara:holding_melon run function gm4_boots_of_ostara:plant/melon
-execute if predicate gm4_boots_of_ostara:holding_pumpkin run function gm4_boots_of_ostara:plant/pumpkin
