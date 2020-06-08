@@ -1,11 +1,11 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "Someone forgot to type a description!"
+        "description": "Someone forgot to type a description! This should be the same as the one below."
     },
     "module_name": "MODULE_NAME",
     "module_id": "MODULE_ID",
-    "site_description": "Someone forgot to type a description!",
+    "site_description": "Someone forgot to type a description! This should be the same as the one above.",
     "site_categories": [],
     "video_link": "YOUTUBE_VIDEO_URL",
     "wiki_link": "WIKI_URL",
@@ -18,7 +18,7 @@
         "or leave array empty"
     ],
     "credits": {
-        "comment": "All credit arrays are optional and more can be created as needed. They will be displayed on the site page under their headings. -- REMOVE THIS COMMENT",
+        "comment": "REMOVE THIS COMMENT -- All credit arrays are optional and more can be created as needed. They will be displayed on the site page under their headings.",
         "Creator": [
             [
                 "USERNAME",

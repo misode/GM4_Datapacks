@@ -1,7 +1,7 @@
 {
 	"pack": {
 		"pack_format": 5,
-		"description": "A Gamemode 4 Module"
+		"description": "Adds the shamir 'Lumos' to metallurgy. It places torches when it is dark."
 	},
 	"module_name": "Lumos Shamir",
 	"module_id": "lumos_shamir",
