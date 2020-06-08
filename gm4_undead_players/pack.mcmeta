@@ -1,7 +1,28 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "You'll find your death point faster, but you'll have to fight your corpse for your stuff back!"
+        "description": {
+            "translate": "%1$s%3427655$s",
+            "with": [
+                [
+                    "Undead Players",
+                    "\n",
+                    {
+                        "text": "Gamemode 4 for 1.16",
+                        "color": "aqua"
+                    }
+                ],
+                {
+                    "translate": "pack.gm4.description",
+                    "with": [
+                        {
+                            "translate": "module.gm4.undead_players"
+                        },
+                        "1.16"
+                    ]
+                }
+            ]
+        }
     },
     "module_name": "Undead Players",
     "module_id": "undead_players",

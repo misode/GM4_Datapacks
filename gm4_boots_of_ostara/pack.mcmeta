@@ -1,7 +1,28 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "Plant crops and more, just by walking! Also negates Desire Lines."
+        "description": {
+            "translate": "%1$s%3427655$s",
+            "with": [
+                [
+                    "Boots of Ostara",
+                    "\n",
+                    {
+                        "text": "Gamemode 4 for 1.16",
+                        "color": "aqua"
+                    }
+                ],
+                {
+                    "translate": "pack.gm4.description",
+                    "with": [
+                        {
+                            "translate": "module.gm4.boots_of_ostara"
+                        },
+                        "1.16"
+                    ]
+                }
+            ]
+        }
     },
     "module_name": "Boots of Ostara",
     "module_id": "boots_of_ostara",

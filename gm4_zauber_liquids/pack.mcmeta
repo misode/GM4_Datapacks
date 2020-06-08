@@ -1,7 +1,28 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "From cauldron-made potions to potion-filled tanks! Store your tier IV potions in Liquid Tanks!"
+        "description": {
+            "translate": "%1$s%3427655$s",
+            "with": [
+                [
+                    "Zauber Liquids",
+                    "\n",
+                    {
+                        "text": "Gamemode 4 for 1.16",
+                        "color": "aqua"
+                    }
+                ],
+                {
+                    "translate": "pack.gm4.description",
+                    "with": [
+                        {
+                            "translate": "module.gm4.zauber_liquids"
+                        },
+                        "1.16"
+                    ]
+                }
+            ]
+        }
     },
     "module_name": "Zauber Liquids",
     "module_id": "zauber_liquids",
