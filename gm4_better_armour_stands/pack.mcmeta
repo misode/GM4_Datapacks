@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "This module lets you control the size of stands and show their arms. It's also expandable!"
     },
     "module_name": "Better Armour Stands",
     "module_id": "better_armour_stands",

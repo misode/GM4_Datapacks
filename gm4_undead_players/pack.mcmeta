@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "You'll find your death point faster, but you'll have to fight your corpse for your stuff back!"
     },
     "module_name": "Undead Players",
     "module_id": "undead_players",

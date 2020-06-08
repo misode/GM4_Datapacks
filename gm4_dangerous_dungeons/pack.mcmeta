@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "A custom terrain expansion pack that adds new types of dungeons underground."
     },
     "module_name": "Dangerous Dungeons",
     "module_id": "dangerous_dungeons",

@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Collects enchantments from tools, armour and weapons."
     },
     "module_name": "Enchantment Extractors",
     "module_id": "enchantment_extractors",

@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Create special hoppers that teleport nearby items to them."
     },
     "module_name": "Ender Hoppers",
     "module_id": "ender_hoppers",

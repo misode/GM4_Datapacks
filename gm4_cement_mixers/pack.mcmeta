@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Adds the ability to turn powder into concrete in Liquid Tanks"
     },
     "module_name": "Cement Mixers",
     "module_id": "cement_mixers",

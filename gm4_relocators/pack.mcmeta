@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Craft relocators to move your custom crafters, liquid tanks, and other machines"
     },
     "module_name": "Relocators",
     "module_id": "relocators",

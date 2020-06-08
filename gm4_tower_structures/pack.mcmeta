@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "A custom terrain expansion pack that adds four new tower structures to the world."
     },
     "module_name": "Tower Structures",
     "module_id": "tower_structures",

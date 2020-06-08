@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "A custom terrain expansion pack that makes biome specific caves and mineshafts"
     },
     "module_name": "Cooler Caves",
     "module_id": "cooler_caves",

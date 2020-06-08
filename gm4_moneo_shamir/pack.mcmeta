@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Adds the shamir 'Moneo' to metallurgy. It stops you from breaking the tool it's applied to."
     },
     "module_name": "Moneo Shamir",
     "module_id": "moneo_shamir",

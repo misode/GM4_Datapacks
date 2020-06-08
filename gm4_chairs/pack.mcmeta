@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Place a saddle on a stair to have a chair to sit on!"
     },
     "module_name": "Chairs",
     "module_id": "chairs",

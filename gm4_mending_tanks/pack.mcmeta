@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Your Liquid XP Tank can now repair your armor and tools!"
     },
     "module_name": "Mending Tanks",
     "module_id": "mending_tanks",

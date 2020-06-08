@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Mooshrooms plant spore-emitting mushrooms that spread mycelium and other mushrooms around them."
     },
     "module_name": "Shroomites",
     "module_id": "shroomites",

@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Store liquids compactly in special tanks and interact with them!"
     },
     "module_name": "Liquid Tanks",
     "module_id": "liquid_tanks",

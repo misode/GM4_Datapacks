@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Custom ores and custom enchants for your tools and armour!"
     },
     "module_name": "Metallurgy",
     "module_id": "metallurgy",

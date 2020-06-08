@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Compress stacks of blocks down for compact storage, or decompress them again."
     },
     "module_name": "Block Compressors",
     "module_id": "block_compressors",

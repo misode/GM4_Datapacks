@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "A crafting recipe pack that adds some nifty new recipes to the game."
     },
     "module_name": "Standard Crafting",
     "module_id": "standard_crafting",

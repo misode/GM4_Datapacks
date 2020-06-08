@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Perfect for UHCs, this module forces you to balance protection with speed."
     },
     "module_name": "Weighted Armour",
     "module_id": "weighted_armour",

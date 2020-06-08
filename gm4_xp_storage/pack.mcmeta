@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Stand on top of an Ender Chest to store XP, stand below to retrieve it!"
     },
     "module_name": "XP Storage",
     "module_id": "xp_storage",

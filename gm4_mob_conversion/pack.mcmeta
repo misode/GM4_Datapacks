@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Convert cows, pigmen and witches into other mobs."
     },
     "module_name": "Mob Conversion",
     "module_id": "mob_conversion",

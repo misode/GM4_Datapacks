@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "Pick up Spawners and move them with Minecarts."
     },
     "module_name": "Spawner Minecarts",
     "module_id": "spawner_minecarts",

@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "This module allows Endermen to aid nearby hostiles in their fight against the player!"
     },
     "module_name": "Enderman Support Class",
     "module_id": "enderman_support_class",

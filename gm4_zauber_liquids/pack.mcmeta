@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": "From cauldron-made potions to potion-filled tanks! Store your tier IV potions in Liquid Tanks!"
     },
     "module_name": "Zauber Liquids",
     "module_id": "zauber_liquids",
