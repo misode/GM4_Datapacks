@@ -1,11 +1,31 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "A Gamemode 4 Module"
+        "description": {
+            "translate": "%1$s%3427655$s",
+            "with": [
+                [
+                    "Book Binders",
+                    "\n",
+                    {
+                        "text": "Gamemode 4 for 1.16",
+                        "color": "aqua"
+                    }
+                ],
+                {
+                    "translate": "pack.gm4.description",
+                    "with": [
+                        {
+                            "translate": "module.gm4.book_binders"
+                        },
+                        "1.16"
+                    ]
+                }
+            ]
+        }
     },
     "module_name": "Book Binders",
     "module_id": "book_binders",
-    "creation_meta": "Created using the Gamemode 4 Module Template Generator (gm4.co/modules/generator)",
     "site_description": "Start printing your own Enchanted Books",
     "site_categories": [],
     "wiki_link": "https://wiki.gm4.co/wiki/Book_Binders",
