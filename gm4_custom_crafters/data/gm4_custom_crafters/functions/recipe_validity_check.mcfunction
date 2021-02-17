@@ -2,7 +2,7 @@
 #Run from main
 
 #store
-data modify storage gm4_custom_crafters:temp/crafter Items set from block ~ ~ ~ Items
+data modify storage gm4_custom_crafters:temp/crafter {} merge from block ~ ~ ~ {}
 
 #store number of full slots
 execute store result score @s gm4_slot_count run data get storage gm4_custom_crafters:temp/crafter Items
@@ -44,6 +44,6 @@ execute if score @s gm4_stack_size matches 1.. run function #gm4_custom_crafters
 execute if score @s gm4_stack_size matches 1.. if data storage gm4_custom_crafters:temp/crafter Items[0].tag.gm4_custom_crafters run function gm4_custom_crafters:apply_multiplier
 
 #apply recipe and multiplier
-data modify block ~ ~ ~ Items set from storage gm4_custom_crafters:temp/crafter Items
+data modify block ~ ~ ~ {} merge from storage gm4_custom_crafters:temp/crafter {}
 
-data remove storage gm4_custom_crafters:temp/crafter Items
+data remove storage gm4_custom_crafters:temp/crafter {}
