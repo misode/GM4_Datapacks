@@ -1,4 +1,4 @@
-#@s = @e[type=armor_stand,tag=gm4_custom_crafter] at @s unless block ~ ~ ~ dropper
+#@s = @e[type=armor_stand,tag=gm4_custom_crafter] at @s unless data storage gm4_custom_crafters:temp/crafter 
 #Run from main
 
 function #gm4_custom_crafters:destroy
