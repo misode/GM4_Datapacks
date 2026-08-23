@@ -1,0 +1,188 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 2
+  },
+  "gives": {
+    "id": "minecraft:lead",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{gm4_balloon_animals:{type:'pig',variant:'temperate'}}"
+    }
+  },
+  "given_item_modifiers": [
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{gm4_balloon_animals:{variant:'cold'}}",
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biomes": "#minecraft:spawns_cold_variant_farm_animals"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{gm4_balloon_animals:{variant:'warm'}}",
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biomes": "#minecraft:spawns_warm_variant_farm_animals"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Bacon",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Betty",
+          "color": "gray"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.88889
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Hamm",
+          "color": "gray"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.77778
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Hoagie",
+          "color": "gray"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.66667
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Piglet",
+          "color": "gray"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.55556
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Pua",
+          "color": "gray"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.44444
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Pumbaa",
+          "color": "gray"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.33333
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Sharla",
+          "color": "gray"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.22222
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "mode": "replace_all",
+      "lore": [
+        {
+          "text": "Swinton",
+          "color": "gray"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.11111
+        }
+      ]
+    }
+  ],
+  "max_uses": 1,
+  "xp": 1
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_type": "minecraft:wandering_trader",
+          "minecraft:entity_tags": {
+            "none_of": [
+              "gm4_balloon_animal_trader"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gm4_balloon_animals:trader/first_interact"
+  }
+}
