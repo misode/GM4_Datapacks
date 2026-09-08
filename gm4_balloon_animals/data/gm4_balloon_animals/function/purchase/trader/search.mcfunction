@@ -2,6 +2,7 @@
 # @s = wandering trader, tag=gm4_balloon_animal_trader, initially nearest
 # at player
 # run from purchased_animal or self
+say SEARCH
 
 # reset end values
 scoreboard players set $trade_found gm4_balloon_animals_data 0
